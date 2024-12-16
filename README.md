@@ -74,10 +74,12 @@ This project leverages machine learning techniques, specifically boosting algori
 ### Level 1
 - **Apply Algorithm:** Train models on preprocessed data.
 - **Feature Extraction:** Identify significant attributes.
+![image](https://github.com/user-attachments/assets/c79d3973-2655-4121-b710-3fc103ed882a)
 
 ### Level 2
 - **Accuracy Results:** Evaluate and refine predictions.
 - **Classify Dataset:** Separate legitimate and fraudulent filings.
+![image](https://github.com/user-attachments/assets/ff9aa2c9-63ed-4656-a688-91fbb575cab3)
 
 ---
 
