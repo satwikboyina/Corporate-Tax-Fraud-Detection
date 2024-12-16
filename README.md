@@ -69,6 +69,7 @@ This project leverages machine learning techniques, specifically boosting algori
 - **Dataset Collection:** Acquire data.
 - **Preprocessing:** Clean and prepare data.
 - **Random Selection:** Choose subsets for training and testing.
+![image](https://github.com/user-attachments/assets/3879f0e5-ff62-43fd-a6b5-87d9a8139300)
 
 ### Level 1
 - **Apply Algorithm:** Train models on preprocessed data.
