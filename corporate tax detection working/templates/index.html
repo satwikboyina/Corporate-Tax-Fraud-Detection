@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Corporate Tax Detection</title>
+    <link rel="stylesheet" type="text/css" href="../static/styles.css">
+
+</head>
+<body>
+    <h1>Income Tax Detection</h1>
+    <form action="/predict" method="post">
+        <label for="net_sales">Net Sales:</label>
+        <input type="text" id="net_sales" name="Net Sales"><br><br>
+
+        <label for="operating_expenses">Operating Expenses:</label>
+        <input type="text" id="operating_expenses" name="Operating Expenses"><br><br>
+
+        <label for="other_income">Other Income:</label>
+        <input type="text" id="other_income" name="Other Income"><br><br>
+
+        <label for="operating_cash_flow">Operating Cash Flow:</label>
+        <input type="text" id="operating_cash_flow" name="Operating Cash Flow"><br><br>
+
+        <label for="current_assets">Current Assets:</label>
+        <input type="text" id="current_assets" name="Current Assets"><br><br>
+
+        <label for="current_liabilities">Current Liabilities:</label>
+        <input type="text" id="current_liabilities" name="Current Liabilities"><br><br>
+
+        <label for="corporate_income_tax_rate">Corporate Income Tax Rate:</label>
+        <input type="text" id="corporate_income_tax_rate" name="Corporate Income Tax Rate"><br><br>
+
+        <label for="effective_tax_rate">Effective Tax Rate:</label>
+        <input type="text" id="effective_tax_rate" name="Effective Tax Rate"><br><br>
+
+        <label for="gross_profit_margin">Gross Profit Margin:</label>
+        <input type="text" id="gross_profit_margin" name="Gross Profit Margin"><br><br>
+
+        <label for="return_on_assets">Return on Assets (ROA):</label>
+        <input type="text" id="return_on_assets" name="Return on Assets (ROA)"><br><br>
+
+        <label for="inventory_turnover">Inventory Turnover:</label>
+        <input type="text" id="inventory_turnover" name="Inventory Turnover"><br><br>
+
+        <label for="number_of_employees">Number of Employees:</label>
+        <input type="text" id="number_of_employees" name="Number of Employees"><br><br>
+
+        <input type="submit" value="Predict">
+    </form>
+</body>
+</html>

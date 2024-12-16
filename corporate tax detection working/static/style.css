@@ -1,0 +1,30 @@
+/* Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Heading Styles */
+h1 {
+    color: #333;
+}
+
+
+/* Result Paragraph Styles */
+p {
+    font-size: 18px;
+    color: #4CAF50; /* Green color */
+    margin-bottom: 20px;
+}
+
+/* Link Styles */
+a {
+    color: #007bff; /* Blue color */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
